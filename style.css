@@ -278,8 +278,8 @@ body {
 
 .neo-illustration {
   position: relative;
-  width: 260px;
-  height: 200px;
+  /* width: 260px;
+  height: 200px; */
 }
 
 .neo-bars {
@@ -527,6 +527,17 @@ textarea {
   background: none;
 }
 
+.neo-container{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+}
+.neo-title {
+  font-size: 32px;
+  line-height: 80px;
+  text-align: center;
+}
 }
 
 
